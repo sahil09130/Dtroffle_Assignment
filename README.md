@@ -1,7 +1,7 @@
 # Dtroffle_assignment
 Project Name - Drroffle Merchndise
 
-Live Demo- > Copy paste the link in browser to run live project
+Live Demo- > https://zesty-cranachan-41c265.netlify.app ->Copy paste the link in browser to run live project
 
 Description
 
