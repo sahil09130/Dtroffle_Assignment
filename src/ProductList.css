@@ -1,0 +1,79 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 20px;
+  width: auto;
+  justify-items: center;
+  align-items: start;
+  margin: 0 auto;
+}
+
+.product {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.product h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.product p {
+  margin-bottom: 10px;
+}
+
+.product img {
+  width: 20%;
+  max-height: 400px;
+  object-fit: cover;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: transform 0.3s ease;
+  
+}
+
+.product-image:hover {
+  transform: scale(2.05);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  opacity: 1;
+  border: 2px solid #b8a0a0;
+}
+
+.buy-button,
+.add-to-cart-button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+
+.buy-button:hover,
+
+.add-to-cart-button:hover {
+  background-color: #4d0eb3dc;
+  color: #ffffff;
+  border: 1px solid #0b0505;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.product {
+  width: 800px; /* Adjust the width to your desired value */
+  margin-left:0%;
+  margin-right:0%;
+  /* Add any other styles you want */
+}
+body {
+  background-color: #F8F8FF;
+  
+}
+
